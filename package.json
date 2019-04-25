@@ -4,7 +4,7 @@
   "description": "337 Final Project npm",
   "main": "indexservice.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "indexservice.js"
   },
   "author": "Kenny McLaren",
   "license": "ISC"
