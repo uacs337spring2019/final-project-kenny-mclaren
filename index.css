@@ -1,0 +1,51 @@
+body {
+	background-color: lightblue;
+	font-family: sans-serif;
+}
+
+textarea {
+	height: 15em;
+	width: 70%;
+	font-family: sans-serif;
+}
+
+#box {
+	display: block;
+	margin-top: 5em;
+}
+
+h1 {
+	color: darkgreen;
+}
+
+#posts {
+	font-size: 2em;
+	font-weight: bold;
+	width: 67%
+}
+
+#posts div {
+	border: 2px solid black;
+	margin: 5px;
+	border-radius: 5px;
+	background-color: tan;
+}
+
+#warning {
+	color: red;
+}
+
+img {
+	float: right;
+	height: 20em;
+	width: 32%;
+	border: 2px solid black;
+}
+
+button {
+	font-size: 2em;
+}
+
+p {
+	font-size: 20pt;
+}
