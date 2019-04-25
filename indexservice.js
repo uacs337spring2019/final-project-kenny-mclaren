@@ -76,4 +76,4 @@ app.get('/', function (req, res) {
 	res.send(jsend);
 })
 
-app.listen(3014);
+app.listen(process.env.PORT);
