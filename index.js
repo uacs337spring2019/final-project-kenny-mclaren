@@ -13,7 +13,7 @@
     }
 
     function getPosts() {
-        let url = "http://localhost:3014";
+        let url = "http://rosemontwest.herokuapp.com:process.env.PORT";
         fetch(url)
             .then(checkStatus)
             .then(function(responseText) {
@@ -34,7 +34,7 @@
     }
 
     function post(postText) {
-        let url = "http://localhost:3014";
+        let url = "http://rosemontwest.herokuapp.com:process.env.PORT";
         const message = {sup : postText};
         message['user'] = document.getElementById('user').value;
         message['pass'] = document.getElementById('pass').value;
